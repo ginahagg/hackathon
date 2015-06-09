@@ -1,0 +1,43 @@
+Year,Race/Ethnicity,Disorder Type,"Rate_per_100,000"
+
+
+0,American Indian,Other disorders,76.08
+1,American Indian,Primary Congenital Hypothyroidism,71.61
+3,Asian Indian,Primary Congenital Hypothyroidism,102.77
+2,Asian Indian,Other disorders,39.85
+8,Black,Sickle C Disease (Hb S/C Disease),95.48
+9,Black,Sickle Cell Anemia (Hb S/S disease),154.12
+7,Black,Primary Congenital Hypothyroidism,20.3
+4,Black,Cystic Fibrosis,11.28
+5,Black,Hb S/Beta + thalassemia,27.07
+6,Black,Other disorders,12.03
+10,"Chinese, Japanese, and Korean",Other disorders,22.01
+11,"Chinese, Japanese, and Korean",Primary Congenital Hypothyroidism,48.42
+12,Filipino/Laotian/Vietnamese/Cambodian/Other SE Asian,Other disorders,11.76
+13,Filipino/Laotian/Vietnamese/Cambodian/Other SE Asian,Primary Congenital Hypothyroidism,28.56
+32,Hispanic,Sickle Cell Anemia (Hb S/S disease),1.96
+15,Hispanic,CAH –Congenital Adrenal Hyperplasia - Classical Salt Wasting,5.23
+19,Hispanic,Cystic Fibrosis,10.86
+21,Hispanic,Hb S/Beta + thalassemia,0.49
+26,Hispanic,Other disorders,1.47
+27,Hispanic,Phenylketonuria (PKU) ,2.78
+28,Hispanic,Primary Congenital Hypothyroidism,61.66
+35,Middle Eastern,Primary Congenital Hypothyroidism,37.59
+34,Middle Eastern,Other disorders,45.95
+38,Multiple,Cystic Fibrosis,6.08
+39,Multiple,Other disorders,12.83
+40,Multiple,Phenylketonuria (PKU) ,3.38
+41,Multiple,Primary Congenital Hypothyroidism,35.12
+42,Multiple,Sickle C Disease (Hb S/C Disease),3.38
+43,Multiple,Sickle Cell Anemia (Hb S/S disease),10.81
+37,Multiple,CAH –Congenital Adrenal Hyperplasia - Classical Salt Wasting,6.08
+44,Other,Cystic Fibrosis,15.86
+45,Other,Other disorders,42.29
+46,Other,Primary Congenital Hypothyroidism,42.29
+47,Unknown,Other disorders,59.63
+48,Unknown,Primary Congenital Hypothyroidism,34.07
+57,White,Other disorders,2.06
+58,White,Phenylketonuria (PKU) ,6.98
+59,White,Primary Congenital Hypothyroidism,34.88
+53,White,Cystic Fibrosis,25.52
+50,White,CAH –Congenital Adrenal Hyperplasia - Classical Salt Wasting,3.33

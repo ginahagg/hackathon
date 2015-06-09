@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>California Health Grid Infant Mortality</title>
+    <link href="css/hackathon-application.css" rel="stylesheet">
+    <link href="css/nv.d3.css" rel="stylesheet">
+    <link href="css/hackathon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta charset="utf-8">
+</head>
+<body class="background-gray">
+
+<div class="logo">
+    <h4><a href="index.html">California Health <strong>Frontier</strong></a></h4>
+</div>
+
+<div class="wrap">
+    <header class="page-header">
+        <div class="navbar">
+                
+                <ul>    
+                    <li class="divider"></li>
+                    
+                    
+                    <li class="visible-xs">
+                        <a href="#"
+                           class="btn-navbar"
+                           data-toggle="collapse"
+                           data-target=".sidebar"
+                           title="">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                   
+                </ul>
+                
+                <div class="notifications pull-right">
+                    
+                </div>
+        </div>
+    </header>
+    <div class="content container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="text-center page-title color-bordo-red">Infant Mortality By Race <small>Dashboard</small></h2>
+            </div>
+        </div>
+        <div class="row">           
+              <div class="col-md-8">
+                <section class="widget">
+                    <header>
+                                              
+                    </header>
+                    <div class="body">
+                    
+                     <ul class="row thumbnails">
+                       <li class="col-sm-8">
+                                <div class="thumbnail">
+                                    <img src="images/infant_mortality_by_year_by_race.png" alt="">
+                                </div>
+                        </li>
+                     </ul>                      
+                    </div>
+                </section>
+            </div>
+        </div>     
+        <div class="row">
+            <div class="col-md-8">
+                <section class="widget">
+                    <header>
+                        <h4 class="big-text">
+                            Context
+                            
+                        </h4>                       
+                    </header>
+                    <div class="body">                        
+                    <p class="font-greeting-avenir1 color-kalesalad-purple">
+                        Newborn screening identifies conditions that can affect a child's long-term health or survival. Early detection, diagnosis, and intervention can prevent death or disability and enable children to reach their full potential. Each year, millions of babies in the U.S. are routinely screened, using a few drops of blood from the newborn's heel, for certain genetic, endocrine, and metabolic disorders, and are also tested for hearing loss prior to discharge from a hospital or birthing center.</p>
+                    <p class="font-greeting-avenir1 color-kalesalad-purple">Several of the congenital diseases are genetic and cannot be prevented. Early detection can prevent mortalities and morbidities. </p>                                  
+                    </div>
+                </section>
+           
+                <section class="widget">                    
+                    <div class="body">
+                            <p class="big-text">Government Departments</p>
+                            <p class="font-greeting-avenir1 color-kalesalad-purple">
+                            <a href="https://www.cdph.ca.gov/programs/nbs/Pages/default.aspx">CDPH newborn screening website</a></p>
+                            
+                            <a href="http://www.cdc.gov/newbornscreening/">National Center on Birth Defects and Developmental Disabilities (NCBDDD):</a></p>
+
+                            <p class="big-text">Policy Literature</p>
+                            <p class="font-greeting-avenir1 color-kalesalad-purple"> Expanding Newborn Screening Process Policy and Priorities
+                            <a href="http://www.uspreventiveservicestaskforce.org/Page/Name/expanding-newborn-screening-process-policy-and-priorities"></a></p>
+                            <p class="font-greeting-avenir1 color-kalesalad-purple">Legal Issues In Newborn Screening Implications For Public Health Practice And Policy</p>
+                            <p class="font-greeting-avenir1 color-kalesalad-purple"><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1497802/">
+                                Legal Issues In Newborn Screening Implications For Public Health Practice And Policy
+                            </a>
+                            </p>
+                            <p class="font-greeting-avenir1 color-kalesalad-purple">- (Article) Newborn Screening Expands Recommendations for Pediatricians and Medical Homes Implications for the System
+                            http://pediatrics.aappublications.org/content/121/1/192.abstract?sid=c7ac4fe2-5942-4411-a1b9-05a2c9c6c34b</p>
+                            <p class="big-text">Disease Literature</p>
+                            <p class="font-greeting-avenir1 color-kalesalad-purple">Sickle Cell Disease:</p>
+                            <p><a href="http://www.afro.who.int/en/clusters-a-programmes/dpc/non-communicable-diseases-managementndm/programme-components/sickle-cell-disease.html" ></a>  </p>
+                                                
+                    </div>
+                </section>
+            
+                <section class="widget large">
+                    <header>
+                        <h4>
+                            Comments
+                        </h4>
+                        <div class="widget-controls">
+                            <a title="Options" href="#"><i class="glyphicon glyphicon-cog"></i></a>
+                            <a data-widgster="close" title="Close" href="#"><i class="glyphicon glyphicon-remove"></i></a>
+                        </div>
+                    </header>
+                    <div class="body">
+                        <div id="chat" class="chat">
+                            <div id="chat-messages" class="chat-messages">
+                                <div class="chat-message">
+                                    <div class="sender pull-left">
+                                        <div class="icon">
+                                            <img src="images/2.jpg" class="img-circle" alt="">
+                                        </div>
+                                        <div class="time">
+                                            4 min
+                                        </div>
+                                    </div>
+                                    <div class="chat-message-body">
+                                        <span class="arrow"></span>
+                                        <div class="sender"><a href="#">Tikhon Laninga</a></div>
+                                        <div class="text">
+                                            Hey Sam, how is it going? But I must explain to you how all this mistaken
+                                            idea of denouncing of a pleasure and praising pain was born
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-message">
+                                    <div class="sender pull-right">
+                                        <div class="icon">
+                                            <img src="images/1.jpg" class="img-circle" alt="">
+                                        </div>
+                                        <div class="time">
+                                            3 min
+                                        </div>
+                                    </div>
+                                    <div class="chat-message-body on-left">
+                                        <span class="arrow"></span>
+                                        <div class="sender"><a href="#">Cenhelm Houston</a></div>
+                                        <div class="text">
+                                            Pretty good. Doing my homework..  No one rejects, dislikes, or avoids
+                                            pleasure itself, because it is pleasure, but because
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-message">
+                                    <div class="sender pull-left">
+                                        <div class="icon">
+                                            <img src="images/2.jpg" class="img-circle" alt="">
+                                        </div>
+                                        <div class="time">
+                                            2 min
+                                        </div>
+                                    </div>
+                                    <div class="chat-message-body">
+                                        <span class="arrow"></span>
+                                        <div class="sender"><a href="#">Tikhon Laninga</a></div>
+                                        <div class="text">
+                                            Any chance to go out? To take a trivial example, which of us ever undertakes
+                                            laborious physical exercise, except to obtain some advantage
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-message">
+                                    <div class="sender pull-right">
+                                        <div class="icon">
+                                            <img src="images/1.jpg" class="img-circle" alt="">
+                                        </div>
+                                        <div class="time">
+                                            2 min
+                                        </div>
+                                    </div>
+                                    <div class="chat-message-body on-left">
+                                        <span class="arrow"></span>
+                                        <div class="sender"><a href="#">Cenhelm Houston</a></div>
+                                        <div class="text">
+                                            .. Maybe 40-50 mins. I don't know exactly. On the other hand, we denounce
+                                            with righteous indignation and dislike men who are so beguiled
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-message">
+                                    <div class="sender pull-left">
+                                        <div class="icon">
+                                            <img src="images/2.jpg" class="img-circle" alt="">
+                                        </div>
+                                        <div class="time">
+                                            1 min
+                                        </div>
+                                    </div>
+                                    <div class="chat-message-body">
+                                        <span class="arrow"></span>
+                                        <div class="sender"><a href="#">Tikhon Laninga</a></div>
+                                        <div class="text">
+                                            Anyway sounds great! These cases are perfectly simple and easy to
+                                            distinguish.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="chat-footer row">
+                                <div class="col-xs-9">
+                                    <input id="new-message" type="text" class="form-control input-transparent" placeholder="Enter your message..">
+                                </div>
+                                <div class="col-xs-3">
+                                    <button type="button" id="new-message-btn" class="btn btn-transparent btn-block">Send</button>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+        </div>
+    </div>
+    
+</div>
+
+<!-- jquery and friends -->
+<script src="light-blue-2/lib/jquery/jquery-2.0.3.min.js"> </script>
+<script src="light-blue-2/lib/jquery-pjax/jquery.pjax.js"></script>
+
+
+<!-- jquery plugins -->
+<script src="light-blue-2/lib/icheck.js/jquery.icheck.js"></script>
+<script src="light-blue-2/lib/sparkline/jquery.sparkline.js"></script>
+<script src="light-blue-2/lib/jquery-ui-1.10.3.custom.js"></script>
+<script src="light-blue-2/lib/jquery.slimscroll.js"></script>
+
+<!-- d3, nvd3-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
+<!--<script src="light-blue-2/lib/nvd3/lib/d3.v3.min.js"></script>-->
+<script src="js/nvd3/nv.d3.js"></script>
+
+<!-- nvd3 models -->
+
+<script src="light-blue-2/lib/nvd3/src/models/axis.js"></script>
+<script src="light-blue-2/lib/nvd3/src/models/legend.js"></script>
+<!--<script src="js/nvd3/multiBar.js"></script>
+<script src="js/nvd3/multiBarChart.js"></script>
+<script src="js/nvd3/utils.js"></script>-->
+<script src="light-blue-2/lib/nvd3/stream_layers.js"></script>
+
+<!--backbone and friends -->
+<script src="light-blue-2/lib/backbone/underscore-min.js"></script>
+<script src="light-blue-2/lib/backbone/backbone-min.js"></script>
+<script src="light-blue-2/lib/backbone/backbone.localStorage-min.js"></script>
+
+<!-- bootstrap default plugins -->
+<script src="light-blue-2/lib/bootstrap/transition.js"></script>
+<script src="light-blue-2/lib/bootstrap/collapse.js"></script>
+<script src="light-blue-2/lib/bootstrap/alert.js"></script>
+<script src="light-blue-2/lib/bootstrap/tooltip.js"></script>
+<script src="light-blue-2/lib/bootstrap/popover.js"></script>
+<script src="light-blue-2/lib/bootstrap/button.js"></script>
+<script src="light-blue-2/lib/bootstrap/tab.js"> </script>
+<script src="light-blue-2/lib/bootstrap/dropdown.js"></script>
+
+<!-- basic application js-->
+<script src="light-blue-2/js/app.js"></script>
+<script src="light-blue-2/js/settings.js"></script>
+
+<!-- page specific -->
+<script>
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+        width = 960 - margin.left - margin.right,
+        height = 300 - margin.top - margin.bottom;
+
+    var x0 = d3.scale.ordinal()
+        .rangeRoundBands([0, width], .1);
+
+    var x1 = d3.scale.ordinal();
+
+    var y = d3.scale.linear()
+        .range([height, 0]);
+
+    var color = d3.scale.ordinal()
+        .range(["#98abc5", "red","#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00", "yellow", "green", "magenta", "steelblue"]);
+
+    var xAxis = d3.svg.axis()
+        .scale(x0)
+        .orient("bottom");
+
+    var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient("left")
+        .tickFormat(d3.format(".2s"));
+
+    var svg = d3.select("#visits").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    var diseaseNames = [
+    "Other disorders",
+    "Primary Congenital Hypothyroidism",
+    "Sickle C Disease (Hb S/C Disease)",
+    "Sickle Cell Anemia (Hb S/S disease)",
+    "Cystic Fibrosis",
+    "Hb S/Beta + thalassemia",
+    "CAH –Congenital Adrenal Hyperplasia - Classical Salt Wasting",
+    "Phenylketonuria (PKU)"];
+
+    var races = ["American Indian","Asian Indian","Black","Chin/Jap/Korean","Hispanic",
+      "Middle Eastern","Multiple","Other","White","Unknown"];
+
+    d3.csv("newborn_disorders_by_race-2.csv", function(error, data) {
+      //var ageNames = d3.keys(data[0]).filter(function(key) { return key !== "State"; });
+      var ageNames = d3.keys(data[0]).filter(function(key) { return key !== "Race"; });
+
+      data.forEach(function(d) {
+        d.ages = ageNames.map(function(name) { return {name: name, value: +d[name]}; });
+      });
+
+      //x0.domain(data.map(function(d) { return d.State; }));
+      //x0.domain(data.map(function(d) { return d.Year; }));
+      x0.domain(races.map(function(d) { return d; }));
+      x1.domain(diseaseNames).rangeRoundBands([0, x0.rangeBand()]);
+      y.domain([0, d3.max(data, function(d) { return d3.max(d.ages, function(d) { return d.value; }); })]);
+
+      svg.append("g")
+          .attr("class", "x axis")
+          .attr("transform", "translate(0," + height + ")")
+          .call(xAxis);
+
+      svg.append("g")
+          .attr("class", "y axis")
+          .call(yAxis)
+        .append("text")
+          .attr("transform", "rotate(-90)")
+          .attr("y", 6)
+          .attr("dy", ".71em")
+          .style("text-anchor", "end")
+          .text("per hundred thousand");
+
+      //var state = svg.selectAll(".state")
+      var state = svg.selectAll(".race")
+          .data(data)
+        .enter().append("g")
+          .attr("class", "g")
+          //.attr("transform", function(d) { return "translate(" + x0(d.State) + ",0)"; });
+          .attr("transform", function(d) { return "translate(" + x0(d.Race) + ",0)"; });
+
+
+      state.selectAll("rect")
+          .data(function(d) { return d.ages; })
+        .enter().append("rect")
+          .attr("width", x1.rangeBand())
+          .attr("x", function(d) { return x1(d.name); })
+          .attr("y", function(d) { return y(d.value); })
+          .attr("height", function(d) { return height - y(d.value); })
+          .style("fill", function(d) { return color(d.name); });
+
+      var legend = svg.selectAll(".legend")
+          .data(ageNames.slice().reverse())
+        .enter().append("g")
+          .attr("class", "legend")
+          .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+      legend.append("rect")
+          .attr("x", width - 18)
+          .attr("width", 18)
+          .attr("height", 18)
+          .style("fill", color);
+
+      legend.append("text")
+          .attr("x", width - 24)
+          .attr("y", 9)
+          .attr("dy", ".45em")
+          .style("text-anchor", "end")
+          .text(function(d) { return d; });
+
+    });
+</script>
+<script src="js/index.js"></script>
+<script src="light-blue-2/js/chat.js"></script>
+
+<script type="text/template" id="message-template">
+        <div class="sender pull-left">
+            <div class="icon">
+                <img src="images/2.jpg" class="img-circle" alt="">
+            </div>
+            <div class="time">
+                just now
+            </div>
+        </div>
+        <div class="chat-message-body">
+            <span class="arrow"></span>
+            <div class="sender">Tikhon Laninga</div>
+            <div class="text">
+                <%- text %>
+            </div>
+        </div>
+</script>
+
+<script type="text/template" id="settings-template">
+    <div class="setting clearfix">
+        <div>Background</div>
+        <div id="background-toggle" class="pull-left btn-group" data-toggle="buttons-radio">
+            <% dark = background == 'dark'; light = background == 'light';%>
+            <button type="button" data-value="dark" class="btn btn-sm btn-transparent <%= dark? 'active' : '' %>">Dark</button>
+            <button type="button" data-value="light" class="btn btn-sm btn-transparent <%= light? 'active' : '' %>">Light</button>
+        </div>
+    </div>
+    <div class="setting clearfix">
+        <div>Sidebar on the</div>
+        <div id="sidebar-toggle" class="pull-left btn-group" data-toggle="buttons-radio">
+            <% onRight = sidebar == 'right'%>
+            <button type="button" data-value="left" class="btn btn-sm btn-transparent <%= onRight? '' : 'active' %>">Left</button>
+            <button type="button" data-value="right" class="btn btn-sm btn-transparent <%= onRight? 'active' : '' %>">Right</button>
+        </div>
+    </div>
+    <div class="setting clearfix">
+        <div>Sidebar</div>
+        <div id="display-sidebar-toggle" class="pull-left btn-group" data-toggle="buttons-radio">
+            <% display = displaySidebar%>
+            <button type="button" data-value="true" class="btn btn-sm btn-transparent <%= display? 'active' : '' %>">Show</button>
+            <button type="button" data-value="false" class="btn btn-sm btn-transparent <%= display? '' : 'active' %>">Hide</button>
+        </div>
+    </div>
+    <div class="setting clearfix">
+        <div>White Version</div>
+        <div>
+            <a href="white/" class="btn btn-sm btn-transparent">&nbsp; Switch &nbsp;   <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="sidebar-settings-template">
+    <% auto = sidebarState == 'auto'%>
+    <% if (auto) {%>
+    <button type="button"
+            data-value="icons"
+            class="btn-icons btn btn-transparent btn-sm">Icons</button>
+    <button type="button"
+            data-value="auto"
+            class="btn-auto btn btn-transparent btn-sm">Auto</button>
+    <%} else {%>
+    <button type="button"
+            data-value="auto"
+            class="btn btn-transparent btn-sm">Auto</button>
+    <% } %>
+</script>
+
+</body>
+</html>

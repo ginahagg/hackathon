@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leaflet California counties</title>
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/MarkerCluster.css" />
+  <link rel="stylesheet" href="css/leaflet.awesome-markers.css">
+  
+
+</head>
+<body>
+
+  <div id="map" style="margin-top:50px;margin-left:15%;width: 900px; height: 570px"></div>
+  
+  <div id="spinnerBox" class="box">
+
+    <h2>Loading</h2>
+    <img src = './img/ajax-loader.gif'>
+    </div>
+
+
+  </div>
+        
+  
+  <div id="getData">
+    <a href="https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9"><img src="https://raw.githubusercontent.com/betanyc/getDataButton/master/png/110x32.png"></a>
+
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script> 
+  <script src="js/leaflet.markercluster.js"></script>
+  <script src="js/leaflet.awesome-markers.min.js"></script> 
+  <script src="js/script.js"></script> 
+</body>
+</html>

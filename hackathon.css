@@ -1,0 +1,673 @@
+body.background-ivory {
+  /*background-color: #3B5A94; purplish*/
+  /*background-color: rgba(112, 58, 21, 0.32);
+  background: radial-gradient(farthest-side ellipse at 10% 0, rgba(67, 28, 23, 0.57), rgba(25, 35, 67, 0.79), rgba(62, 50, 67, 0.69));
+  background: -webkit-radial-gradient(10% 0, farthest-side ellipse, rgba(67, 28, 23, 0.57), rgba(25, 35, 67, 0.79), rgba(62, 50, 67, 0.69));
+  background: -moz-radial-gradient(10% 0, farthest-side ellipse, rgba(67, 28, 23, 0.57), rgba(25, 35, 67, 0.79), rgba(62, 50, 67, 0.69));*/
+
+  background-color: white;
+  background: radial-gradient(farthest-side ellipse at 10% 0, #2f3f43, #2f3f43, #2f3f43);
+  background: -webkit-radial-gradient(10% 0, farthest-side ellipse, white, white, white);
+  background: -moz-radial-gradient(10% 0, farthest-side ellipse, #2f3f43, #2f3f43, #2f3f43);
+}
+
+body.background-gray {
+  /*background-color: #3B5A94; purplish*/
+  /*background-color: rgba(112, 58, 21, 0.32);
+  background: radial-gradient(farthest-side ellipse at 10% 0, rgba(67, 28, 23, 0.57), rgba(25, 35, 67, 0.79), rgba(62, 50, 67, 0.69));
+  background: -webkit-radial-gradient(10% 0, farthest-side ellipse, rgba(67, 28, 23, 0.57), rgba(25, 35, 67, 0.79), rgba(62, 50, 67, 0.69));
+  background: -moz-radial-gradient(10% 0, farthest-side ellipse, rgba(67, 28, 23, 0.57), rgba(25, 35, 67, 0.79), rgba(62, 50, 67, 0.69));*/
+
+  background-color: #EAEAEA;
+  background: radial-gradient(farthest-side ellipse at 10% 0, #2f3f43, #2f3f43, #2f3f43);
+  background: -webkit-radial-gradient(10% 0, farthest-side ellipse, white, white, white);
+  background: -moz-radial-gradient(10% 0, farthest-side ellipse, #2f3f43, #2f3f43, #2f3f43);
+}
+
+.content {
+    padding: 25px 0px 10.1641% 0px;
+}
+
+.container {
+  background-color: #EAEAEA;
+  /*max-width: 1400px;*/
+}
+
+svg text {
+    fill: #60974f;
+}
+
+.widget {
+  /*background: rgba(34, 34, 34, 0.85);*/
+  background:white;
+  border-radius: 10px;
+  padding: 2px 2px;
+  margin-bottom: 10px;
+  z-index: 0;
+  top:0;
+}
+
+.widget.tiny {
+  height: 170px;
+}
+
+.widget.large {
+  height: 250px;
+}
+.widget.large .body {
+  height: 220px;
+}
+
+.widget .normal-text {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 16px;
+  height: 18px;
+  font-weight: bold;
+  color: #31405a;
+}
+
+.widget .big-text {
+  /*color: #b8cec4; very light blue*/
+  /*color: #B7A86E; yellowish*/
+  font: 100 2em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*line-height: 36px;
+  margin-top: 15px;
+  height: 36px; */
+  font-weight: normal;
+  color: #aaa263;
+}
+
+.widget .white-text{
+  font: 100 2em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-weight: normal;*/
+}
+
+.widget .white-text-small{
+  font: 100 1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-weight: normal;*/
+}
+
+.widget .lime-green-text {
+  font: 100 2em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-weight: normal;*/
+  color: #8ca252;
+}
+
+.widget .lime-green-text3 {
+  font: 100 3em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-weight: normal;*/
+  color: #8ca252;
+}
+
+.widget .lime-green-text1.5 {
+  font: 100 1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-weight: normal;*/
+  color: #8ca252;
+}
+
+.widget .lime-green-text1 {
+  font: 100 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-weight: normal;*/
+  color: #8ca252;
+}
+
+.widget .lime-green-text4 {
+  font: 100 4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #8ca252;
+}
+
+.widget .lime-green-text5 {
+  font: 100 5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #8ca252;
+}
+
+.widget .lime-green-text6 {
+  font: 100 6em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #8ca252;
+}
+
+.widget .big1-text {
+  /*color: #b8cec4; very light blue*/
+  /*color: #B7A86E; yellowish*/
+  font: 100 3em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*line-height: 36px;
+  margin-top: 15px;
+  height: 36px; */
+  font-weight: normal;
+  color: #aaa263;
+}
+
+.widget .lessbig-text1.5 {
+  /*color: #b8cec4; very light blue*/
+  /*color: #B7A86E; yellowish*/
+  font: 100 1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*line-height: 36px;
+  margin-top: 15px;
+  height: 36px; */
+  font-weight: normal;
+  color: #aaa263;
+}
+
+.widget .lessbig1-text {
+  /*color: #b8cec4; very light blue*/
+  /*color: #B7A86E; yellowish*/
+  font: 100 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*line-height: 36px;
+  margin-top: 15px;
+  height: 36px; */
+  font-weight: normal;
+  color: #aaa263;
+}
+
+.font-papyrus {
+  font: 100 3em, "Helvetica Neue";
+}
+
+.widget .grand-text {
+  font: 100 7em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #aaa263;
+}
+
+/*.widget.large {
+	height:275px;
+}
+
+.widget.large .body {
+    height: 240px;
+}*/
+
+.widget.short{
+  background: rgba(180, 198, 212, 0.2);
+  width: 150px;
+  border-radius: 1px;
+  padding-right:25px;
+}
+
+._4-u2 {
+background: rgba(76, 75, 68, 0.28);
+}
+
+/*.widget.large{
+  height: 290px;
+}*/
+
+#top-stripe {
+    height: 16px;
+    width: 100%;
+    background: #64D5D5;
+    position: absolute;
+    top: 0;
+    z-index: 200
+}
+
+.row {
+    margin-left: 150px;
+    margin-right: -300px;
+}
+
+.table-images td {
+    height: 200px;
+    vertical-align: middle;
+}
+
+.table-images td img {
+    height: 200px;
+}
+
+.table thead > tr > th,
+.table thead > tr > td,
+.table tbody > tr > th,
+.table tbody > tr > td,
+.table tfoot > tr > th,
+.table tfoot > tr > td {
+  padding: 8px;
+  line-height: 20px;
+  vertical-align: middle;
+  border-top: 1px solid rgba(51, 51, 51, 0.35);
+}
+
+a {
+    color:  #2a52be;
+    text-decoration: none;
+}
+
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #67718C;
+}
+
+/*.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12, */
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1 {
+  
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top:10px;
+  border-radius: 10px;
+}
+
+.col-sm-3 {
+    /*width: 20%;*/
+    width: 236px;
+  }
+
+.thumbnail {
+  display: block;
+  border-radius: 10px;
+  background: white;
+}
+
+/*
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+	padding: 15px;
+}*/
+
+.navbar {
+  /*position: relative;*/
+  /*min-height: 50px;
+  background-color: white;*/
+  background-color: rgba(51, 51, 51, 0.02);
+  width:100%;
+  top:0;
+  position:absolute;
+  /*margin-bottom: 20px;
+  padding-bottom:  20px;*/
+}
+
+.sidebar{
+	width: 100px;
+}
+
+/*.wrap {
+  margin-left: 15%;
+}*/
+
+.logo {
+     top: 5px;
+     /*background-color: blue;*/
+ }
+
+.logo a {
+  color: green;
+}
+
+.box{
+	border-radius: 9px;
+  background: white;
+}
+
+.box .icon, .box .big-text {
+  font: 200 3em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-weight: normal;
+    /*margin-top: 15px;
+    font-size: 48px;
+    line-height: 48px;
+    height: 48px;
+    font-weight: normal;*/
+}
+
+.box .long {
+    margin-top: 15px;
+    font-size: 48px;
+    line-height: 48px;
+    height: 48px;
+    font-weight: normal;
+}
+
+.box .icon, .box .grand-text {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 80px;
+    line-height: 80px;
+    height: 80px;
+    font-weight: normal;
+}
+
+
+.yellow {
+    /*background: #eac85e !important;*/
+    /*color: white !important;*/
+    color: #aaa263 !important;
+}
+
+.purple{
+	background-color: #5e80ea;
+}
+
+.color-pinkish {
+  color: #c59c95 !important;
+}
+
+.dark-pink {
+	color: #ea5e80 !important;
+}
+
+.gray-blue{
+	color: #B4C6D4 !important;
+}
+
+.lovely-pink{
+	color:#F2AF9E !important;
+}
+
+.color-dark-green{
+  color: #1B2C02; !important;
+}
+
+.color-forest-green{
+  color: #108856 !important;
+}
+
+.color-compatible-blue{
+  color: #6d7fa4 !important;
+}
+
+.color-bordo{
+  color:#6f213f !important;
+}
+
+.color-green-for-bordo{
+  color:#216f51 !important;
+}
+
+.color-greener2-for-bordo{
+  color: #0f3426 !important;
+}
+
+.color-greener1-for-bordo{
+  color: #0f3325 !important;
+}
+
+.color-blue-for-bordo{
+  color: #274a83 !important;
+}
+
+.color-d3-purple{
+  color: #9467bd !important;
+}
+
+.color-kalesalad-purple{
+  color: #67718C !important;
+}
+
+.color-kalesalad-purple2{
+  color: #656F8A !important;
+}
+
+.color-bordo-red{
+  color: #e5603b; !important;
+}
+
+.color-greener{
+  color: #60974f !important;
+}
+
+.color-msg-danger{
+  color: #642a1a !important;
+}
+
+
+.visits-chart text {
+  font-weight:normal;
+  font: 100 2em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffbb78;
+}
+
+.warningyellow {
+  color: #eac85e !important;
+}
+
+.warningorange {
+  color: #e5603b !important;
+}
+
+.color-barchart-blue{
+  color: #aec7e8 !important;
+}
+
+
+.color-barchart-red{
+  color: #d6616b !important;
+}
+
+.color-barchart-green{
+  color: #8ca252 !important;
+}
+
+.color-text-yellow{
+  color: #aaa263 !important;
+}
+
+.color-pinky-red{
+  color: #6f3a38 !important;
+}
+
+.color-pinker-red{
+  color: #a25452 !important;
+}
+
+.color-hackathon-gray{
+  color: #EAEAEA !important;
+}
+
+.color-hackathon-light-gray{
+  color:#E2E2E2 !important;
+}
+
+/*.btn-danger {
+  background-color:#d6616b;
+}*/
+
+.font-greeting-size2{
+  font-weight:normal;font: 100 2em "Handwriting - Dakota";
+}
+
+.font-greeting-size3{
+  font-weight:normal;font: 100 3em "Handwriting - Dakota";
+}
+
+.font-greeting-avenir{
+  font-weight:normal;font: 100 3em "Avenir Next";
+}
+
+.font-greeting-avenir5{
+  font-weight:bold;font: 100 5em "Avenir Next";
+}
+
+.font-greeting-avenir2{
+  font-weight:normal;font: 100 2em "Avenir Next";
+}
+
+.font-greeting-avenir1{
+  font-weight:normal;font: 100 1.5em "Avenir Next";
+}
+
+.font-greeting-light{
+  font-family: 'Avenir Next', Arial, Helvetica, sans-serif; font-size: 60px;
+}
+
+.font-greeting-light-sm{
+  font-family: 'Avenir Next', Arial, Helvetica, sans-serif; font-size: 30px;
+}
+
+.font-greeting-light-sm20{
+  font-family: 'Avenir Next', Arial, Helvetica, sans-serif; font-size: 20px;
+}
+
+
+.font-greeting-size4{
+  font-weight:normal;font: 100 4em "Handwriting - Dakota";
+}
+
+.font-greeting-size1{
+  font-weight:normal;font: 100 1em "Handwriting - Dakota";
+}
+
+
+
+/*.nvd3 .nv-discretebar .nv-groups text,
+.nvd3 .nv-multibarHorizontal .nv-groups text {  
+  font-weight: bold;
+  fill: #8ca252;
+  stroke: rgba(0,0,0,0);
+}*/
+
+.nv-discretebar  text
+{
+  font-weight: normal;
+  fill: #60974f;
+  font: 100 4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  stroke: #60974f ;
+  color: #60974f ;
+}
+
+
+svg text {
+    
+    fill: #1a4d00;
+}
+
+
+.wrap-center {
+  margin-left: 300px;
+}
+
+.wrap-left {
+  margin-left: 110px;
+  margin-top:50px;
+}
+  
+/** rafael clock stuff **/
+#holder {
+                height: 270px;
+                left: 50%;
+                margin: -74px 0 0 -140px;
+                position: absolute;
+                top: 50%;
+                width: 270px;
+            }
+#copy {
+    bottom: 0;
+    font: 200 .7em "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+    position: absolute;
+    right: 1em;
+    text-align: right;
+}
+#copy a {
+    color: #fff;
+}
+
+
+#holder {
+    height: 270px;
+    margin: -140px 0 0 -140px;
+    width: 270px;
+}
+#time {
+    text-align: center;
+    font: 100 3em "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.account-picture img {
+  width: 80px;
+  height:80px;
+  margin-right: 5px;
+}
+
+.wrap {
+  margin-left: 0px;
+  margin-right:-150px;
+}
+
+.panel .panel-heading a {   
+    font-weight: 100;    
+}
+
+.widget > header h1, .widget > header h2, .widget > header h3, .widget > header h4,
+.widget > header h5 {
+    margin: 0;
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+/*leo's map *******************************/
+
+@-moz-keyframes pulsate {
+    from {
+      -moz-transform: scale(0.25);
+      opacity: 1.0;
+    }
+    95% {
+      -moz-transform: scale(1.3);
+      opacity: 0;
+    }
+    to {
+      -moz-transform: scale(0.3);
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes pulsate {
+    from {
+      -webkit-transform: scale(0.25);
+      opacity: 1.0;
+    }
+    95% {
+      -webkit-transform: scale(1.3);
+      opacity: 0;
+    }
+    to {
+      -webkit-transform: scale(0.3);
+      opacity: 0;
+    }
+  }
+  /* get the container that's just outside the marker image, 
+    which just happens to have our Marker title in it */
+  #map_canvas div.gmnoprint[title="I might be here"] {
+    -moz-animation: pulsate 1.5s ease-in-out infinite;
+    -webkit-animation: pulsate 1.5s ease-in-out infinite;
+    border:1pt solid #fff;
+    /* make a circle */
+    -moz-border-radius:51px;
+    -webkit-border-radius:51px;
+    border-radius:51px;
+    /* multiply the shadows, inside and outside the circle */
+    -moz-box-shadow:inset 0 0 5px #06f, inset 0 0 5px #06f, inset 0 0 5px #06f, 0 0 5px #06f, 0 0 5px #06f, 0 0 5px #06f;
+    -webkit-box-shadow:inset 0 0 5px #06f, inset 0 0 5px #06f, inset 0 0 5px #06f, 0 0 5px #06f, 0 0 5px #06f, 0 0 5px #06f;
+    box-shadow:inset 0 0 5px #06f, inset 0 0 5px #06f, inset 0 0 5px #06f, 0 0 5px #06f, 0 0 5px #06f, 0 0 5px #06f;
+    /* set the ring's new dimension and re-center it */
+    height:51px!important;
+    margin:-18px 0 0 -18px;
+    width:51px!important;
+  }
+  /* hide the superfluous marker image since it would expand and shrink with its containing element */
+/*  #map_canvas div[style*="987654"][title] img {*/
+  #map_canvas div.gmnoprint[title="I might be here"] img {
+    display:none;
+  }
+  /* compensate for iPhone and Android devices with high DPI, add iPad media query */
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (device-width: 768px) {
+    #map_canvas div.gmnoprint[title="I might be here"] {
+      margin:-10px 0 0 -10px;
+    }
+  }
+
+
+
+
+/*--------------------------------------------/
+orange #F7962C map
+yellow #FBD70E map
+darker(orangy) yellow #FEC336 (circle)
+
+light teal green #64D5D5 circle
+background gray #2F3F44
+
+**/
